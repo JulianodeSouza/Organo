@@ -1,0 +1,19 @@
+.text-input {
+  margin: 24px 0;
+}
+
+.text-input label {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 18px;
+}
+
+.text-input input {
+  background-color: #fff;
+  box-shadow: 7px 10px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  border: none;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  font-size: 16px;
+}

@@ -1,0 +1,49 @@
+.activity {
+  width: 280px;
+  margin: 2rem 0;
+  position: relative;
+}
+
+div.activity:hover:not(:hover) {
+  opacity: 0.3;
+}
+
+.activity:hover {
+  scale: 1.1;
+}
+
+.activity .header {
+  background-color: #f0f0f0;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.activity img {
+  width: 100px;
+  border-radius: 30%;
+  position: relative;
+  bottom: -50px;
+}
+
+.activity .body {
+  background: #ffffff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 0px 0px 10px 10px;
+  padding-top: 90px;
+  padding-bottom: 40px;
+}
+
+.activity .body h4 {
+  color: #6278f7;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-decoration: none;
+}
+
+.delete-button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+}
